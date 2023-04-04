@@ -85,33 +85,4 @@ def name(self):
    return f"{self.first_name} {self.last_name}"
  
  
-class UserManager(BaseUserManager):
-  def get_object_by_public_id(self, public_id):
-    
-    try:
-      instance = self.get(public_id=public_id)
-      return instance
-    except (ObjectDoesNotExist, ValueError, TypeError):
-      return Http404
-    
-    
-  def create_user(self,username,email,password=None, **kwargs):
-    """Create and return a `User` with an email, phone
-number, username and password."""
-    if password is None:
-      raise TypeError('Superusers must have apassword.')
-    if email is None:
-      raise TypeError('Superusers must have anemail.')
-    if username is None:
-      raise TypeError('Superusers must have an username.')
-    user = self.create_user(username, email, password,**kwargs)
-  
-    user.is_superuser=True
-    user.is_staff=True
-    user.save(using=self._db)
-      
-    return user
-      
-      
- 
  
