@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'core',
     'core.user',
-    'core.auth'
+    # 'core.auth'
     'rest_framework',
     'rest_framework_simplejwt',
 ]
