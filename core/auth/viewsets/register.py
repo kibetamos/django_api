@@ -14,9 +14,8 @@ class RegisterVewSet(ViewSet):
   
   
   def create(self, request, *args, **kwargs):
-    
-    
-    Serializer = self.serializer_class(data=request.data)
+
+    serializer = self.serializer_class(data=request.data)
     serializer.is_valid(raise_exception=True)
     
     user = serializers.save()
