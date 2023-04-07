@@ -1,4 +1,4 @@
-# add the viewset.
+# add the viewsets.
 
 from rest_framework.response import Response
 
