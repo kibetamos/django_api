@@ -1,8 +1,13 @@
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from rest_framework_simplejwt.settings import api_settings
+
 from django.contrib.auth.models import update_last_login
+
 from core.user.serializers import UserSerializer
+
 class LoginSerializer(TokenObtainPairSerializer):
+  #We are surcharging the validate method from the TokenObtainPairSerializer class to
+#adapt it to our needs
   def validate(self, attrs):
     data = super().validate(attrs)
     refresh = self.get_token(self.user)
