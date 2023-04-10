@@ -1,4 +1,4 @@
-from django.db import from django.db import models
+from django.db import models
 import uuid
 
 from django.core.exceptions import ObjectDoesNotExist
@@ -14,3 +14,13 @@ class AbstractManager(models.Manager):
       return instance
     except (ObjectDoesNotExist, ValueError, TypeError):
       return Http404 
+    
+    
+class AbstractModel(models.Model):
+  public_id = models.UUIDField(db_index=True, unique=True, default=uuid.uuid4, editable=False)
+  created = models.DateTimeField(auto_now_add=True)
+  updated = models.DateTimeField(auto_now=True)
+  objects = AbstractManager()
+  
+  class Meta:
+    abstract = True
