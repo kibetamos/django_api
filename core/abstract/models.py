@@ -28,3 +28,5 @@ class AbstractModel(models.Model):
 #     As you can see in the Meta class for AbstractModel, 
 #     the abstract attribute is set to True.
 # Django will ignore this class model and won’t generate migrations for this.
+
+
