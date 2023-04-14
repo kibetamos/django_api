@@ -17,3 +17,14 @@ class PostSerializer(AbstractSerializer):
        raise ValidationError("You can't create a post for another user.")
      
      return value
+   
+   
+   
+   
+   class Meta:
+     model = Post
+      # List of all the fields that can be included in a
+ # request or a response
+     
+     fields = ['id', 'author', 'body', 'edited','created', 'updated']
+     read_only_fields = ["edited"]
