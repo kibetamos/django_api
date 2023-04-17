@@ -44,10 +44,10 @@ INSTALLED_APPS = [
     
     'rest_framework_simplejwt',
 
-    'core',
+       'core',
     'core.user',
     'core.auth',
-    'core.post',
+    'core.post'
 ]
 
 AUTH_USER_MODEL = 'core_user.User'
