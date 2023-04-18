@@ -71,6 +71,16 @@ class User(AbstractModel, AbstractBaseUser, PermissionsMixin):
     def name(self):
         return f"{self.first_name} {self.last_name}"
 
+# The like() method: This is used for liking a post if it hasn’t been done yet. For this, we’ll use
+# the add() method from the models. We’ll use ManyToManyField to link a post to a user.
+
+
+# • The remove_like() method: This is used for removing a like from a post. For this, we’ll
+# use the remove method from the models. We’ll use ManyToManyField to unlink a post
+# from a user.
+
+# • The has_liked() method: This is used for returning True if the user has liked a post,
+# else False.
     def like(self, post):
         """Like `post` if it hasn't been done yet"""
         return self.posts_liked.add(post)
