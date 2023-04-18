@@ -54,3 +54,8 @@ class PostViewSet(AbstractViewSet):
         serializer = self.serializer_class(post)
 
         return Response(serializer.data, status=status.HTTP_200_OK)
+    
+#     • The anonymous user: This user has no account on the API and can’t really be identified
+# • The registered and active user: This user has an account on the API and can easily perform
+# some actions
+# • The admin user: This user has all rights and privileges
