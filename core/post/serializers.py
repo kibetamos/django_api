@@ -9,6 +9,12 @@ from core.user.serializers import UserSerializer
 
 class PostSerializer(AbstractSerializer):
     author = serializers.SlugRelatedField(queryset=User.objects.all(), slug_field='public_id')
+    
+    # Adding the likes_count and has_liked fields to PostSerializer
+    
+#     we are using the serializers.SerializerMethodField() field,
+    
+# which allows us to write a custom function that will return a value we want to attribute to this field.
     liked = serializers.SerializerMethodField()
     likes_count = serializers.SerializerMethodField()
 
