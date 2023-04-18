@@ -1,7 +1,3 @@
-# The code should follow these rules:
-# • Only authenticated users can create posts
-# • Only authenticated users can read posts
-# • Only GET and POST methods are allowed
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.decorators import action
@@ -54,8 +50,7 @@ class PostViewSet(AbstractViewSet):
         serializer = self.serializer_class(post)
 
         return Response(serializer.data, status=status.HTTP_200_OK)
-    
-#     • The anonymous user: This user has no account on the API and can’t really be identified
-# • The registered and active user: This user has an account on the API and can easily perform
-# some actions
-# • The admin user: This user has all rights and privileges
+
+
+
+
