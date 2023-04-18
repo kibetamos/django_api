@@ -65,6 +65,8 @@ class User(AbstractModel, AbstractBaseUser, PermissionsMixin):
     def __str__(self):
         return f"{self.email}"
 
+# • A user can like many posts
+# • A post can be liked by many users
     @property
     def name(self):
         return f"{self.first_name} {self.last_name}"
