@@ -22,6 +22,18 @@ class PostViewSet(AbstractViewSet):
         self.check_object_permissions(self.request, obj)
 
         return obj
+    
+#     • The like() method: This is used for liking a post if it hasn’t been done yet. For this, we’ll use
+# the add() method from the models. We’ll use ManyToManyField to link a post to a user.
+
+
+# • The remove_like() method: This is used for removing a like from a post. For this, we’ll
+# use the remove method from the models. We’ll use ManyToManyField to unlink a post
+# from a user.
+
+
+# • The has_liked() method: This is used for returning True if the user has liked a post,
+# else False.
 
     def create(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data)
