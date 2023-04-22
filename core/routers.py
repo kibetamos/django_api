@@ -4,6 +4,7 @@ from core.post.viewsets import PostViewSet
 from core.user.viewsets import UserViewSet
 from core.auth.viewsets import RegisterViewSet, LoginViewSet, RefreshViewSet
 
+
 router = routers.SimpleRouter()
 
 # ##################################################################### #
