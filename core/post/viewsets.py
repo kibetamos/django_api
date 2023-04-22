@@ -53,6 +53,16 @@ class PostViewSet(AbstractViewSet):
 
         return Response(serializer.data, status=status.HTTP_200_OK)
 
+# we retrieve the concerned post on which we want to call the like or remove the like action.
+# The self.get_object() method will automatically return the concerned post using the
+# ID passed to the URL request, thanks to the detail attribute being set to True.
 
 
+# we also retrieve the user making the request from the self.request object. This
+# is done so that we can call the remove_like or like method added to the User model
+
+
+
+# we serialize the post using the Serializer class defined on self.serializer_
+# class and we return a response
 
