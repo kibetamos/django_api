@@ -7,3 +7,9 @@ from core.comment.serializers import CommentSerializer
 from core.auth.permissions import UserPermission
 
 
+class CommentViewSet(AbstractViewSet):
+  http_method_names = ('post', 'get', 'put', 'delete')
+  permission_classes = (UserPermission,)
+  serializer_class = CommentSerializer
+  
+  
