@@ -28,6 +28,13 @@ router.register(r'user', UserViewSet, basename='user')
 
 router.register(r'post', PostViewSet, basename='post')
 
+posts_router = routers.NestedSimpleRouter(router,r'post', lookup='post')
+
+# NestedSimpleRouter is a sub-class of the SimpleRouter class, which takes initialization
+# parameters, such as parent_router – router –parent_prefix – r'post' – and
+# the lookup – post. The lookup is the regex variable that matches an instance of the parent
+# resource – PostViewSet.
+
 urlpatterns = [
     *router.urls,
 ]
