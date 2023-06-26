@@ -1,5 +1,5 @@
 # Django API
-django_api </br>
+Django API </br>
 This is a django api to be consumed by React application</br>
 
 # Steps to set up
