@@ -1,4 +1,4 @@
-# django_api project 
+# Django_api project 
 django_api </br>
 This is a django api to be consumed by React application</br>
 
