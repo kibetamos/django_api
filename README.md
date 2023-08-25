@@ -26,7 +26,7 @@ This is a backend django api to be consumed by React application</br>
 
 3. Once the virtual environment is activated, install requirements by running:
 
-            pip install -r requirements.txt
+   pip install -r requirements.txt
 
 
 The Django API should now be running at 
