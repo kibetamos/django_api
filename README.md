@@ -15,14 +15,14 @@ This is a backend django api to be consumed by React application</br>
 3. Activate the virtual environment. Use the appropriate command based on your operating system:
 
 - For Unix/Linux:
-           ```
-           source venv/bin/activate
-           ```
+  ```
+  source venv/bin/activate
+  ```
 
 - For Windows:
-           ```
-           venv\Scripts\activate
-           ```
+  ```
+  venv\Scripts\activate
+  ```
 
 3. Once the virtual environment is activated, install requirements by running:
 
