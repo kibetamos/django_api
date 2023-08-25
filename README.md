@@ -5,8 +5,11 @@ Django API </br>
 This is a backend django api to be consumed by React application</br>
 
 ## Setting up the project 
+1. Git clone the projcet using this link:
 
-2. Activate the virtual environment. Use the appropriate command based on your operating system:
+   
+
+3. Activate the virtual environment. Use the appropriate command based on your operating system:
 
 - For Unix/Linux:
   ```
