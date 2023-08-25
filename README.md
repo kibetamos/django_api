@@ -28,6 +28,10 @@ This is a backend django api to be consumed by React application</br>
 
             pip install -r requirements.txt
 
+4. Now we can start our server by running:
+
+         python manage.py runserver
+
 
 The Django API should now be running at 
 
