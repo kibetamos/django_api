@@ -35,6 +35,4 @@ This is a backend django api to be consumed by React application</br>
 
 The Django API should now be running at 
 
-      http://localhost:8000/.
-.
-
+      http://localhost:8000/
