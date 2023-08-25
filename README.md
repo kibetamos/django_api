@@ -12,7 +12,7 @@ This is a backend django api to be consumed by React application</br>
 
    
 
-3. Activate the virtual environment. Use the appropriate command based on your operating system:
+2. Activate the virtual environment. Use the appropriate command based on your operating system:
 
 - For Unix/Linux:
   ```
@@ -24,11 +24,11 @@ This is a backend django api to be consumed by React application</br>
   venv\Scripts\activate
   ```
 
-4. Once the virtual environment is activated, install requirements by running:
+3. Once the virtual environment is activated, install requirements by running:
 
             pip install -r requirements.txt
 
-5. Now we can start our server by running:
+4. Now we can start our server by running:
 
          python manage.py runserver
 
