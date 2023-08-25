@@ -4,7 +4,7 @@ Django API </br>
 
 This is a backend django api to be consumed by React application</br>
 
-##setting up the project 
+## Setting up the project 
 
 2. Activate the virtual environment. Use the appropriate command based on your operating system:
 
