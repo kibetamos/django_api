@@ -1,5 +1,7 @@
 # Django API
+
 Django API </br>
+
 This is a backend django api to be consumed by React application</br>
 
 
