@@ -11,7 +11,6 @@ This is a backend DjangO API to be consumed by React application</br>
          git clone git@github.com:kibetamos/django_api.git
    
 
-   
 
 3. Activate the virtual environment. Use the appropriate command based on your operating system:
 
