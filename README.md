@@ -1,6 +1,6 @@
 ## Django API application
 
-Django API </br>
+## Django API </br>
 
 This is a backend DjangO API to be consumed by React application</br>
 
