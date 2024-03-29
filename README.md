@@ -8,7 +8,7 @@ This is a backend DjangO API to be consumed by React application</br>
 ## Setting up the project 
 
 1. Git clone the projcet using this link:'
-2. 
+   
          git clone git@github.com:kibetamos/django_api.git
 
 
