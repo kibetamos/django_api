@@ -1,4 +1,4 @@
- ## Django API application
+## Django API application
 
 ## Django API </br>
 
