@@ -34,4 +34,3 @@ This is a backend DjangO API to be consumed by React application</br>
 The Django API should now be running at 
 
       http://127.0.0.1:8000/
-
