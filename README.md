@@ -19,6 +19,7 @@ This is a backend DjangO API to be consumed by React application</br>
   source venv/bin/activate
   ```
 
+
 - For Windows:
   ```
   venv\Scripts\activate
