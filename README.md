@@ -24,7 +24,7 @@ This repository contains a Django API backend intended to be consumed by a React
   venv\Scripts\activate
   ```
 
-3. Once the virtual environment is activated, install requirements by running:
+3. Install Requirements: Once the virtual environment is activated, install the project dependencies using pip:
 
             pip install -r requirements.txt
 
