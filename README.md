@@ -12,7 +12,7 @@ This repository contains a Django API backend intended to be consumed by a React
          git clone git@github.com:kibetamos/django_api.git
 
 
-3. Activate the virtual environment. Use the appropriate command based on your operating system:
+3. Activate the Virtual Environment: Depending on your operating system, activate the virtual environment :
 
 - For Unix/Linux:
   ```
