@@ -7,7 +7,7 @@ This repository contains a Django API backend intended to be consumed by a React
 
 ## Project Setup
 
-1. Clone the Repository: Use the following command to clone the repository:'
+1. Clone the Repository: Use the following command to clone the repository:
    
          git clone git@github.com:kibetamos/django_api.git
 
