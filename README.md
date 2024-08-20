@@ -1,5 +1,7 @@
 # Django API Application
 
+
+
 ## Overview
 
 This repository contains a Django API backend intended to be consumed by a React application.
