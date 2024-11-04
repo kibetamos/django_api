@@ -12,7 +12,6 @@ Follow these steps to set up the project locally:
     ```
     git clone git@github.com:kibetamos/django_api.git
     ```
-
 2. **Activate the Virtual Environment**: Depending on your operating system, activate the virtual environment:
     - For Unix/Linux:
         ```
