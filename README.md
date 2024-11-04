@@ -21,6 +21,8 @@ Follow these steps to set up the project locally:
         ```
         source venv/bin/activate
         ```
+
+
     - For Windows:
         ```
         venv\Scripts\activate
