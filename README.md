@@ -32,7 +32,6 @@ Follow these steps to set up the project locally:
     python manage.py runserver
     ```
 
-
 The Django API should now be running locally at [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
 
 ---
