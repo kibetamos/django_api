@@ -1,4 +1,4 @@
-fr# Django API Application
+myfr# Django API Application
 
 ## Overview
 
@@ -40,5 +40,4 @@ The Django API should now be running locally at [http://127.0.0.1:8000/](http://
 ---
 
 Feel free to customize this README further based on your project's specific details and requirements. Let me know if you need any more assistance!
-
 
