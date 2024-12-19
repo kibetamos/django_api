@@ -1,4 +1,4 @@
-myfr# Django API Application
+# Django API Application
 
 ## Overview
 
