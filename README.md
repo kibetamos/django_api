@@ -22,7 +22,6 @@ Follow these steps to set up the project locally:
         venv\Scripts\activate
         ```
 
-
 3. **Install Requirements**: Once the virtual environment is activated, install the project dependencies using pip:
     ```
     pip install -r requirements.txt
