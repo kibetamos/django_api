@@ -10,6 +10,7 @@ Follow these steps to set up the project locally:
 
 1. **Clone the Repository**: Use the following command to clone the repository:
 
+
     ```
     git clone git@github.com:kibetamos/django_api.git
     ```
