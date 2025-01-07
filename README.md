@@ -26,7 +26,6 @@ Follow these steps to set up the project locally:
     ```
     pip install -r requirements.txt
     ```
-
 4. **Run the Server**: Start the Django server by running the following command:
     ```
     python manage.py runserver
