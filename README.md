@@ -6,6 +6,7 @@ This repository contains a Django API backend intended to be consumed by a React
 
 ## Project Setup
 
+
 Follow these steps to set up the project locally:
 
 1. **Clone the Repository**: Use the following command to clone the repository:
